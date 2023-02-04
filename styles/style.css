@@ -75,3 +75,46 @@ display: inline-block;
 border-bottom: 1px solid #ffffff;
 line-height: 17px;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header__item {
+    padding-top: 150px;
+}
+.ty {
+    padding-right: 5%;
+}
+.title {
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 116%;
+}
+.sub-title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 137%;
+    margin-top: 25px;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    column-gap: 20px;
+    max-width: 411px;
+    width: 100%;
+}
+.info button {
+    background-color: #1378EF;
+    color: #ffffff;
+}
+.info__item {
+    margin-top: 20px;
+    font-weight: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 150%;
+    background: #1378EF;
+    border-radius: 64px;
+    padding: 2px 16px;
+}

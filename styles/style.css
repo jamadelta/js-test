@@ -28,14 +28,13 @@ ul li {
     /*top*/
 
 .overlay {
-    max-width: 68%;
+    max-width: 1300px;
     width: 100%;
     margin: 0 auto;
     border-left: 1px solid rgba(255, 255, 255, 0.11);
     border-right: 1px solid rgba(255, 255, 255, 0.11);
     position: relative;
     overflow: hidden;
-    height: 1000px;
 }
 .overlay::after {
     position: absolute;
@@ -81,9 +80,13 @@ line-height: 17px;
 }
 .header__item {
     padding-top: 150px;
+    padding-bottom: 100px;
 }
-.ty {
+.canvas__item {
     padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .title {
     font-weight: 700;

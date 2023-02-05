@@ -1,0 +1,16 @@
+@media (max-width: 1300px) {
+    .overlay {
+        
+        border-left: 2px solid rgba(255, 255, 255, 0.11);
+        border-right: 2px solid rgba(255, 255, 255, 0.11);
+    }
+    .title {
+        font-size: 60px;
+    }
+    .menu {
+        padding-left: 100px;
+    }
+}
+@media (max-width: 100px) {
+    
+}

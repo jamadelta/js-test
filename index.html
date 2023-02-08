@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="styles/media.css" />
+    <script type="text/javascript" src="js/jq.js"></script>
     <script type="text/javascript" src="js/node.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,39 +16,142 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   </head>
   <body>
     <div class="overlay">
       <header>
         <nav class="bar">
           <div class="navbar">
-            <div class="logo"><img src="img/Лого.svg" alt=""></div>
+            <div class="logo"><img src="img/Лого.svg" alt="" /></div>
           </div>
           <div class="menu">
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">Contacts</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Reviews</a></li>
+              <li><a href="#">Contacts</a></li>
             </ul>
+            <a href="#"><img class="rth" src="img/menu.svg" alt="" /></a>
           </div>
         </nav>
-        
+
         <div class="header">
-            <div class="header__item">
-                <h1 class="title">Michael</h1>
-                <h2 class="title">Scofield</h2>
-                <h2 class="sub-title">Fullstack web developer</h2>
-                <div class="info">
-                    <div class="info__item"><button>UI / UX Design</button></div>
-                    <div class="info__item"><a href="#">QA Testing</a></div>
-                    <div class="info__item"><a href="#">Mobile Apps</a></div>
-                    <div class="info__item"><a href="#">Web development</a></div>
-                </div>
+          <div class="header__item">
+            <h1 class="title">Michael</h1>
+            <h2 class="title">Scofield</h2>
+            <h2 class="sub-title">Fullstack web developer</h2>
+            <div class="info">
+              <div class="info__item"><button>UI / UX Design</button></div>
+              <div class="info__item"><a href="#">QA Testing</a></div>
+              <div class="info__item"><a href="#">Mobile Apps</a></div>
+              <div class="info__item"><a href="#">Web development</a></div>
             </div>
-            <div class="header__item2 canvas__item">
-                <img src="img/gg.svg" alt="">
+          </div>
+          <div class="header__item2 canvas__item">
+            <img src="img/gg.svg" alt="" />
+          </div>
+        </div>
+        <div class="about">
+          <div class="top-about">
+            <span class="top-about-gg">About</span>
+            <h2 class="top-about-text">History of my development:</h2>
+          </div>
+          <div class="about-standart">
+            <div class="first w">
+              <div class="about-block">
+                <span class="about-date">2015</span><br />
+                <span class="about-text"
+                  >First project. Blog for the teacher</span
+                >
+              </div>
+              <div class="about-block">
+                <span class="about-date">2016</span><br />
+                <span class="about-text"
+                  >Development of the first mobile application</span
+                >
+              </div>
+              <div class="about-block">
+                <span class="about-date">2017</span><br />
+                <span class="about-text"
+                  >The portfolio includes over 100 projects</span
+                >
+              </div>
             </div>
+            <div class="two w">
+              <div class="about-block">
+                <span class="about-date">2018</span><br />
+                <span class="about-text">First international project</span>
+              </div>
+              <div class="about-block">
+                <span class="about-date">2019</span><br />
+                <span class="about-text"
+                  >Launching a personal web development course</span
+                >
+              </div>
+              <div class="about-block">
+                <span class="about-date">2020</span><br />
+                <span class="about-text">Started working in Google</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="top-project">
+            <span class="pr-top-text">Projects</span>
+            <h2 class="pr-button-text">100+ projects on different topics:</h2>
+          </div>
+          <nav class="nav-project">
+            <ul>
+              <li><img class="sircle" src="img/el.png" alt=""></li>
+              <li><a class="text-img-fon" href="#">Blogs</a></li>
+              <li><a href="#">CRM</a></li>
+              <li><a href="#">Educational platform</a></li>
+              <li><a href="#">Banking applications</a></li>
+              <li><a href="#">Mobile applications</a></li>
+              <li><a href="#">Mobile games</a></li>
+              <li><a href="#">Social networks</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="blogs">
+          <h2 class="sub-text-blog">Blogs</h2>
+          <div class="blog-st">
+            <div class="blog1">
+              <div class="blog-block rrr">
+                <a href="#" class="sub-text-blog">Blog 1</a>
+                <a href="#"><img  src="img/Vector.svg" alt=""></a>
+              </div>
+              <span>some kind of link to the site</span>
+            </div>
+            <div class="blog2 rrr">
+              <a href="#" class="sub-text-blog">Blog 2</a>
+              <a href="#"><img  src="img/Vector (1).svg" alt=""></a>
+            </div>
+            <div class="blog3 rrr">
+              <a href="#" class="sub-text-blog">Blog 3</a>
+              <a href="#"><img  src="img/Vector (1).svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="the-project">
+          <p>Write to me and I will answer within the next 24 hours</p>
+          <button><a href="javascript:PopUpShow()" class="open-button"> Discuss the project</a></button>
+        </div>
+        <div class="popup" id="popup1">
+          <div class="popup-content">
+            <div class="dop-cont">
+              <a href="javascript:PopUpHide()"><img src="img/Vector (2).svg" alt=""></a>
+              <h2>Сontact me:</h2>
+              <input type="text"
+              class="form__input"
+              placeholder="Name">
+              <p>Message</p>
+              <input type="text"
+              class="form__input mess">
+              <button>Discuss the project</button>
+            </div>
+          </div>
         </div>
       </header>
     </div>

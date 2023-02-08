@@ -1,16 +1,38 @@
 @media (max-width: 1300px) {
     .overlay {
-        
+        padding: 0 50px;
         border-left: 2px solid rgba(255, 255, 255, 0.11);
         border-right: 2px solid rgba(255, 255, 255, 0.11);
     }
     .title {
         font-size: 60px;
     }
-    .menu {
-        padding-left: 100px;
+}
+@media (max-width: 1090px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .__item {
+        flex: 0 0 100%;
     }
 }
-@media (max-width: 100px) {
-    
+@media (max-width: 818px) {
+     .menu li {
+        display: none;
+     }
+     .overlay {
+        padding: 0 30px;
+     }
+     .rth {
+        width: 50px;
+        display: flex;
+     }
+     .header {
+        padding: 0 20px;
+        margin-top: -30px;
+     }
+     .bar {
+        justify-content: space-between;
+     }
 }

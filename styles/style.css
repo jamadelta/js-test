@@ -21,6 +21,8 @@ button {
     font: inherit;
     cursor: pointer;
     transition: 0.4s;
+    background: none;
+    color: #ffffff;
 }
 ul li {
     list-style-type: none;
@@ -120,4 +122,198 @@ line-height: 17px;
     background: #1378EF;
     border-radius: 64px;
     padding: 2px 16px;
+}
+.rth {
+    display: none;
+}
+/* about */
+.about {
+    margin-top: 150px;
+}
+
+.about-standart {
+    margin-top: 45px;
+}
+
+.w {
+    display: flex;
+}
+.about-date {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 170%;
+    display: inline-block;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+.about-text { 
+    font-size: 16px;
+    line-height: 170%;
+    white-space: nowrap;
+}
+
+.top-about-gg {
+    font-size: 20px;
+    line-height: 170%;
+}
+
+.top-about-text {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 55px;
+}
+.about-block {
+    margin-right: 150px;
+    width: 290px;
+}
+.about-block:last-child {
+    margin-right: 90px;
+}
+.two {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+/* projects */
+.pr-top-text {
+    font-size: 20px;
+    line-height: 170%;
+}
+.pr-button-text {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 55px;
+}
+.nav-project ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    
+}
+.nav-project a {
+    font-size: 22px;
+    line-height: 63px;
+    padding-right: 50px;
+    white-space: nowrap;
+}
+.text-img-fon {
+    position: relative;
+    margin-left: 20px;
+}
+.sircle {
+    position: absolute;
+    left: 2px;
+    top: 1630px;
+}
+/* blog */
+.blogs {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 15px;
+    margin: 0 5px;
+}
+.rrr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+.blog1 span {
+    font-size: 16px;
+    line-height: 170%;
+}
+.sub-text-blog {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 55px;
+}
+.blog-st a:hover {
+    color: #1378EF;
+}
+.the-project {
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 315px;
+}
+.the-project p {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 55px;
+    max-width: 668px;
+}
+.the-project button {
+    font-size: 16px;
+    line-height: 150%;
+    width: 260px;
+    height: 260px;
+    background: url(../img/Ellipse\ 3.svg) no-repeat;
+    margin-top: -110px;
+    margin-left: 200px;
+}
+/* popup */
+.open-button {
+    padding: 0 auto;
+}
+
+.popup{
+    width:100%;
+    height: 2000px;
+    background-color: #1B1B1B;;
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    left: 0;
+}
+.popup .popup-content{
+    margin:15% auto 0px auto;
+    width:350px;
+    height: 300px;
+    background-color: #1F1F1F;;
+}
+.popup-content img {
+    margin: 15px 0 0 325px;
+}
+.popup-content h2 {
+    margin-left: 99px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    margin-bottom: 35px;
+}
+.form__input::placeholder {
+     color: #ffffff;
+     font-size: 16px;
+     line-height: 170%;
+}
+.form__input {
+    border:none;
+    color: #ffffff;
+    margin-left: 25px;
+    padding-bottom: 0;
+    width: 300px;
+    background: none;
+    outline: none;
+    padding-bottom: 3px;
+border-bottom: 1px solid #fff;
+}
+.form__input:focus {
+    font-size: 16px;
+     line-height: 170%;
+}
+.popup-content button {
+    display: block;
+    font-size: 16px;
+    line-height: 150%;
+    margin-left: 96px;
+    margin-top: 30px;
+}
+.dop-cont p {
+    font-size: 16px;
+    line-height: 170%;
+    width: 80px;
+    margin: 30px  0 25px 25px;
 }

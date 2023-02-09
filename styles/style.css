@@ -245,7 +245,7 @@ line-height: 17px;
     line-height: 55px;
     max-width: 668px;
 }
-.the-project button {
+.the-project button{
     font-size: 16px;
     line-height: 150%;
     width: 260px;
@@ -262,7 +262,7 @@ line-height: 17px;
 .popup{
     width:100%;
     height: 2000px;
-    background-color: #1B1B1B;;
+    background: rgba(0, 0, 0, 0.9);
     overflow:hidden;
     position:fixed;
     top:0;
@@ -271,7 +271,7 @@ line-height: 17px;
 .popup .popup-content{
     margin:15% auto 0px auto;
     width:350px;
-    height: 300px;
+    height: 310px;
     background-color: #1F1F1F;;
 }
 .popup-content img {
@@ -295,6 +295,8 @@ line-height: 17px;
     margin-left: 25px;
     padding-bottom: 0;
     width: 300px;
+    font-size: 16px;
+    line-height: 170%;
     background: none;
     outline: none;
     padding-bottom: 3px;
@@ -316,4 +318,25 @@ border-bottom: 1px solid #fff;
     line-height: 170%;
     width: 80px;
     margin: 30px  0 25px 25px;
+}
+/* rev */
+.rev-tx {
+    margin-bottom: 90px;
+    margin-top: 20px;
+}
+.reviews {
+    margin-top: 150px;
+}
+/* rev bottom */
+.obob {
+    display: block;
+    width: 420px;
+    height: 341px;
+    background: rgba(24, 24, 24, 0.59);
+    align-items: center;
+    text-align: center;
+}
+.humans {
+    display: flex;
+    justify-content: space-between;
 }
